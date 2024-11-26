@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donation-page</title>
-</head>
+    <link rel="stylesheet" href="color/style.css">
+  </head>
 <body>
-    
-</body>
+    <!-- header section -->
+  <header>
+    <div class="navbar" >
+        <div>Blog</div>
+        <div class="logo-png">
+            <div><img src="Picture/logo.png" alt="logo"></div>
+            <div>Donate Bangladesh</div>
+        </div>
+        <div class="coin-png">
+            <div><img src="Picture/coin.png" alt=""></div>
+            <div id="total-balance" >5500 BDT</div>
+        </div>
+    </div>
+  </header>
+  <!-- Main section -->
+  <main>
+    <!-- btn page -->
+    <div class="btn-page">
+        <button id="show-donate-money-form" class="btn">Donation</button>
+
+        <button id="history-donation-section" class="btn">History</button>
+    </div>
+    <!--  Donate section -->
+     <div id="donate-money-section" class="hero">
+        <div>
+            <img src="Picture/noakhali.png" alt="Noakhali">
+        </div>
+        <div class="donation-section">
+            <div class="dolor-bdt">
+                <div><img src="Picture/coin.png" alt=""></div>
+                <div id="donate-account-balance">0 </div> 
+                <div> BDT</div>
+            </div>
+    const donateBalance = balance + donateMoney ;
+            <div class="Place-information">
+                <h3>Donate for Flood at Noakhali, Bangladesh</h3>
+                <p>Bangladesh is currently facing a devastating flood crisis, and the district of Noakhali has been hit particularly hard. Thousands of people have lost their homes, livelihoods, and all sense of security. Families are struggling to survive, with many left homeless, in debt, and without access to basic necessities.</p>
+            </div>
+            <div class="donation-amount">
+                <input id="donate-add-money" class="input-amount" type="text" placeholder="Write Donation Amount" class="" required /> <br>
+                <button id="btn-add-money" class="donate-now" class="">Donate Now</button>
+            </div>
+        </div>
+     </div>
+
+     <!-- History section -->
+
+     <div id="history-section" class="histor">
+        <h3>Transaction History </h3>
+        <div id = "history-container"></div>
+     </div>
+
+  </main>
+  <footer></footer>
+  <script src="js/addMoney.js"></script>
+  <script src="js/utilities.js"></script>
+  <script src="js/features.js"></script>
+</body> 
 </html>
