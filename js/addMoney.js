@@ -17,7 +17,7 @@ if( donateMoney > 0){
 
     // add to transaction history
     const p = document.createElement('p');
-    p.innerText = `${ donateMoney} TK is Donated for famine-2024 at Feni, Bangaladesh ${date}`;
+    p.innerText = `${ donateMoney} TK is Donated for famine-2024 at Feni, Bangaladesh ${donateMoney}`;
     // console.log(p);
 
     // should be a common function
